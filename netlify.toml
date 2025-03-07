@@ -1,0 +1,36 @@
+# Netlify configuration file for Laravel + Inertia.js
+
+[build]
+  # Directory to change to before starting a build
+  base = "app/"
+  
+  # Directory that contains the deploy-ready HTML files and assets
+  publish = "public"
+  
+  # Default build command - using our custom build script
+  command = "./netlify-build.sh"
+
+# Redirect all API requests to a placeholder for static deployment
+[[redirects]]
+  from = "/api/*"
+  to = "/api-placeholder.json"
+  status = 200
+
+# Redirect all routes to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+# Set environment variables
+[build.environment]
+  NODE_VERSION = "18"
+  PHP_VERSION = "8.2"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# Handle 404 errors
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404

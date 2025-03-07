@@ -1,0 +1,8 @@
+{
+  "message": "This is a static deployment of the Free Parent Search frontend. API endpoints are not available in this preview version.",
+  "status": "success",
+  "data": {
+    "note": "This is placeholder data for UI development and testing purposes.",
+    "timestamp": "2025-03-07T18:49:44-05:00"
+  }
+}
