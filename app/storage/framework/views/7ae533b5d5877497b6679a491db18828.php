@@ -46,8 +46,8 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link id="heading-font" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap" media="all" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- External resources disabled for local development -->
-        <!-- <script src="https://kit.fontawesome.com/08eb134ce7.js" crossorigin="anonymous"></script> -->
+        <!-- External resources for local development -->
+        <script src="https://kit.fontawesome.com/08eb134ce7.js" crossorigin="anonymous"></script>
         <!-- <script type="text/javascript" src="https://get.free.ca/scripts/sdk/everflow.js"></script> -->
         <!-- <script src="<?php echo e(url('/everflow.js')); ?>"></script> -->
         <!-- Facebook Pixel Code - Disabled for local development -->

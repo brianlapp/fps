@@ -156,4 +156,52 @@ Route::group(['prefix' => 'product-reviews', 'as' => 'product_categories.'], fun
 Route::post('join-newsletter', [\App\Http\Controllers\NewsLetterController::class, 'join'])->name('joinNewsletter');
 require __DIR__ . '/auth.php';
 require __DIR__ . '/rss.php';
+
+// Custom static pages
+Route::get('resources', function () {
+    return Inertia::render('StaticPages/Resources', [
+        'page' => [
+            'title' => 'Resources',
+            'seo_title' => 'Parenting Resources',
+            'headline' => 'Helpful resources for parents',
+            'seo_headline' => 'Find helpful resources for your parenting journey',
+            'content' => '<div class="prose max-w-none dark:prose-invert"><h2>Parenting Resources</h2><p>This page contains helpful resources for parents at every stage of their journey.</p><p>We are currently building this page. Please check back soon for more content!</p></div>',
+            'image' => '/images/banner.webp',
+            'link' => route('page', 'resources'),
+            'tags' => ['Resources', 'Parenting', 'Help']
+        ]
+    ]);
+})->name('resources');
+
+Route::get('about', function () {
+    return Inertia::render('StaticPages/About', [
+        'page' => [
+            'title' => 'About Us',
+            'seo_title' => 'About Free Parent Search',
+            'headline' => 'Learn about our mission to support parents',
+            'seo_headline' => 'Our mission to support parents with free resources and tools',
+            'content' => '<div class="prose max-w-none dark:prose-invert"><h2>About Free Parent Search</h2><p>Free Parent Search is dedicated to providing parents with free resources, tools, and support for every stage of their parenting journey.</p><p>We are currently building this page. Please check back soon for more information about our mission and team!</p></div>',
+            'image' => '/images/family.png',
+            'link' => route('page', 'about'),
+            'tags' => ['About', 'Mission', 'Team']
+        ]
+    ]);
+})->name('about');
+
+Route::get('contact', function () {
+    return Inertia::render('StaticPages/Contact', [
+        'page' => [
+            'title' => 'Contact Us',
+            'seo_title' => 'Contact Free Parent Search',
+            'headline' => 'Get in touch with our team',
+            'seo_headline' => 'Contact our team for questions, feedback, or support',
+            'content' => '<div class="prose max-w-none dark:prose-invert"><h2>Contact Us</h2><p>Have a question, feedback, or need support? We\'re here to help! Fill out the form below and our team will get back to you as soon as possible.</p></div>',
+            'image' => '/images/banner.webp',
+            'link' => route('page', 'contact'),
+            'tags' => ['Contact', 'Support', 'Help']
+        ]
+    ]);
+})->name('contact');
+
+// Catch-all route for dynamic pages from the database
 Route::get('{slug}', PagesController::class)->name('page');
