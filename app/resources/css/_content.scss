@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.article-content,
+.ck-editor__editable_inline {
+    h2 {
+        @apply text-3xl mb-4 mt-[2.5rem];
+    }
+
+    h3 {
+        @apply text-2xl mb-3 mt-[2rem];
+    }
+
+    h4 {
+        @apply text-xl;
+        &:not(.mt-custom) {
+            @apply mt-[2rem];
+        }
+
+        &:not(.mb-custom) {
+            @apply mb-3;
+        }
+    }
+
+    p {
+        @apply mb-2;
+    }
+
+    ol {
+        @apply list-decimal list-inside mb-2;
+    }
+
+    ul {
+        @apply list-disc list-inside mb-2;
+        li {
+            @apply ml-4;
+        }
+    }
+
+    ol, ul {
+        li {
+            p {
+                display: inline;
+            }
+        }
+    }
+
+    h1 {
+        @apply text-4xl mb-6;
+    }
+
+    h3, p {
+        &:has(.btn-link) {
+            display: flex;
+        }
+    }
+
+    .ck-list-bogus-paragraph {
+        display: unset !important;
+    }
+
+    a:not(.btn-link) {
+        @apply text-blue-700 hover:underline cursor-pointer font-semibold;
+    }
+
+    .btn-big {
+        @apply px-4 inline-block text-white rounded-lg text-2xl py-3 mb-4 bg-green-500 font-bold mt-4 hover:bg-primary-400 text-center w-[80%] mx-auto;
+    }
+
+    .btn-sm {
+        @apply px-4 inline-block text-white rounded-lg text-xl py-3 mb-4 bg-green-500 font-bold mt-4 hover:bg-primary-400 text-center w-[50%] mx-auto;
+    }
+
+    figure.image {
+        &:not(.image-style-side) {
+            @apply mx-auto;
+            width: fit-content;
+        }
+
+        &.image-style-side {
+            float: right;
+            max-width: 50%;
+        }
+
+    }
+
+    &.marked {
+        h2,h3,h4 {
+            @apply text-3xl mb-4 mt-[2.5rem];
+        }
+    }
+}
+
+a.disabled,
+button:disabled,
+button.disabled {
+    @apply opacity-50 cursor-not-allowed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-body {
+    font-family: DM Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.w-fit {
+    width: fit-content !important;
+}

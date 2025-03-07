@@ -1,0 +1,18 @@
+@use "content";
+@use "loader";
+:root, body {
+    overscroll-behavior: none !important;
+}
+
+body.no-sidebar {
+    #main-sidebar, #main-sidebar-hamburger {
+        visibility: hidden;
+    }
+}
+
+.bg-blue-gradient-reversed {
+    background-image: linear-gradient(135deg, rgb(24, 176, 248), rgb(60, 130, 246));
+}
+.bg-blue-gradient {
+    background-image: linear-gradient(135deg, rgb(60, 130, 246), rgb(24, 176, 248));
+}

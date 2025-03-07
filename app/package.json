@@ -1,0 +1,49 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.31",
+        "sass": "^1.77.4",
+        "tailwindcss": "^3.2.1",
+        "vite": "^5.4.14",
+        "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-vue": "^7.3.0",
+        "@codemirror/lang-html": "^6.4.9",
+        "@codemirror/lang-javascript": "^6.2.2",
+        "@codemirror/lang-json": "^6.0.1",
+        "@codemirror/theme-one-dark": "^6.1.2",
+        "@vueup/vue-quill": "^1.2.0",
+        "@vueuse/core": "^10.10.0",
+        "aos": "^2.3.4",
+        "ckeditor5": "^44.1.0",
+        "flowbite": "^2.3.0",
+        "lodash": "^4.17.21",
+        "marked": "^14.1.2",
+        "moment": "^2.30.1",
+        "uuid": "^10.0.0",
+        "v-mask": "^2.3.0",
+        "vite-plugin-static-copy": "^1.0.5",
+        "vue-codemirror": "^6.1.1",
+        "vue-loading-overlay": "^6.0.4",
+        "vue-multiselect": "^3.0.0",
+        "vue-picture-cropper": "^0.7.0",
+        "vue-recaptcha-v3": "^2.0.1",
+        "vue-the-mask": "^0.11.1",
+        "vue3-colorpicker": "^2.3.0",
+        "vue3-nestable": "github:Bitacora-io/vue3-nestable",
+        "vue3-tags-input": "^1.0.12",
+        "vue3-touch-events": "^4.2.0"
+    }
+}
