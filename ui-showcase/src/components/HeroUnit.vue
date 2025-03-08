@@ -141,7 +141,7 @@ onMounted(() => {
                 @loadeddata="handleVideoLoad"
                 @error="handleVideoError"
               >
-                <source src="parenting.mp4" type="video/mp4">
+                <source src="https://i.imgur.com/IOBO9ZC.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
