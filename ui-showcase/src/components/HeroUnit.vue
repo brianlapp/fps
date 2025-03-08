@@ -89,7 +89,7 @@
             <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-green-100 dark:bg-green-900 rounded-full opacity-50 blur-xl"></div>
             
             <!-- Hero Video -->
-            <div class="relative w-full aspect-square md:aspect-video overflow-hidden rounded-lg shadow-xl">
+            <div class="relative w-full aspect-video md:aspect-square overflow-hidden rounded-lg shadow-xl">
               <video 
                 class="absolute inset-0 w-full h-full object-cover"
                 autoplay
