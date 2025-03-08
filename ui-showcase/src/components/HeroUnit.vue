@@ -1,13 +1,12 @@
 <script setup>
-// Using images and video from public directory
 import { ref, onMounted } from 'vue'
 
+// State Management
 const videoLoading = ref(true)
 const videoError = ref(false)
 const videoElement = ref(null)
 
-// Using video from public directory
-
+// Event Handlers
 const handleVideoLoad = () => {
   console.log('Video loaded successfully')
   videoLoading.value = false
@@ -16,14 +15,13 @@ const handleVideoLoad = () => {
 const handleVideoError = (error) => {
   console.error('Video failed to load:', error)
   console.log('Video source:', videoElement.value?.currentSrc || 'No source')
-  console.log('Attempted video URL:', videoUrl)
   videoError.value = true
   videoLoading.value = false
 }
 
+// Lifecycle
 onMounted(() => {
   console.log('Video element:', videoElement.value)
-  console.log('Loading video from public directory')
 })
 </script>
 
@@ -118,7 +116,7 @@ onMounted(() => {
             <!-- Hero Video -->
             <div class="relative w-full aspect-video md:aspect-square overflow-hidden md:rounded-lg md:shadow-xl border-b border-gray-200 dark:border-gray-700 sm:border-0">
               <!-- Loading State -->
-              <div v-if="videoLoading && !videoError" class="absolute inset-0 w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800">
+              <div v-if="videoLoading" class="absolute inset-0 w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800">
                 <div class="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
               </div>
 
@@ -132,7 +130,7 @@ onMounted(() => {
                 </div>
               </div>
 
-              <!-- Video -->
+              <!-- Video Element -->
               <video 
                 ref="videoElement"
                 class="absolute inset-0 w-full h-full object-cover"
