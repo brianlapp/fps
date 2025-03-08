@@ -1,23 +1,23 @@
-# Netlify configuration file for Laravel + Inertia.js UI Preview
-# Updated on March 7, 2025 to trigger a new deployment
+# Netlify configuration file - Simplified for UI Preview
+# Updated on March 7, 2025 with simplified build approach
 
 [build]
-  # Directory to change to before starting a build
+  # Use repository root
   base = "/"
   
-  # Directory that contains the deploy-ready HTML files and assets
-  publish = "app/public"
+  # Output directory for static files
+  publish = "public"
   
-  # Default build command
-  command = "cd app && npm run netlify-build"
+  # Simple build command using Node.js script
+  command = "node netlify.js"
 
-# Redirect all API requests to a placeholder for static deployment
+# Redirect all API requests to a placeholder
 [[redirects]]
   from = "/api/*"
   to = "/api-placeholder.json"
   status = 200
 
-# Redirect all routes to index.html for SPA routing
+# Handle all routes for SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
@@ -27,7 +27,6 @@
 # Set environment variables
 [build.environment]
   NODE_VERSION = "18"
-  NPM_FLAGS = "--legacy-peer-deps"
 
 # Handle 404 errors
 [[redirects]]
