@@ -88,12 +88,19 @@
             <div class="absolute -top-10 -right-10 w-32 h-32 bg-blue-100 dark:bg-blue-900 rounded-full opacity-50 blur-xl"></div>
             <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-green-100 dark:bg-green-900 rounded-full opacity-50 blur-xl"></div>
             
-            <!-- Main image -->
-            <img 
-              src="/images/hero-family-new.png" 
-              alt="Happy family enjoying quality time together" 
-              class="w-full h-auto object-contain max-h-[500px] transform transition-transform duration-700 hover:scale-[1.02]"
-            />
+            <!-- Hero Video -->
+            <div class="relative w-full aspect-square md:aspect-video overflow-hidden rounded-lg shadow-xl">
+              <video 
+                class="absolute inset-0 w-full h-full object-cover"
+                autoplay
+                loop
+                muted
+                playsinline
+              >
+                <source src="/parenting.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>
