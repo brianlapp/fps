@@ -21,5 +21,5 @@ export default defineConfig({
     },
   },
   publicDir: 'public',
-  base: '/ui-showcase/',
+  base: process.env.NODE_ENV === 'production' ? '/ui-showcase/' : '/',
 })

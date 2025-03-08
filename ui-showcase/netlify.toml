@@ -1,28 +1,19 @@
 # Netlify configuration for UI Showcase
 
 [build]
-  # Base directory
   base = "ui-showcase"
-  
-  # Output directory for static files
   publish = "dist"
-  
-  # Build command
   command = "npm install && npm run build"
 
-# Handle all routes for SPA
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/ui-showcase/*"
+  to = "/ui-showcase/index.html"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true
-
-# Set environment variables
-[build.environment]
-  NODE_VERSION = "18"
-
-# Handle 404 errors
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 404
