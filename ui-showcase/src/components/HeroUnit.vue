@@ -4,7 +4,7 @@
 
 <template>
   <section class="hero-section bg-gradient-to-br from-blue-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden">
-    <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-2 md:py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 pt-0 pb-2 md:py-16 lg:py-20">
       <div class="grid md:grid-cols-2 gap-4 md:gap-8 items-center">
         <!-- Hero Content Column -->
         <div class="order-2 md:order-1 animate-fadeIn">
@@ -89,7 +89,7 @@
             <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-green-100 dark:bg-green-900 rounded-full opacity-50 blur-xl"></div>
             
             <!-- Hero Video -->
-            <div class="relative w-full aspect-video md:aspect-square overflow-hidden rounded-lg shadow-xl">
+            <div class="relative w-full aspect-video md:aspect-square overflow-hidden md:rounded-lg md:shadow-xl border-b border-gray-200 dark:border-gray-700 sm:border-0">
               <video 
                 class="absolute inset-0 w-full h-full object-cover"
                 autoplay
