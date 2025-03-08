@@ -21,5 +21,5 @@ export default defineConfig({
     },
   },
   publicDir: 'public',
-  base: '/',
+  base: '/ui-showcase/',
 })
