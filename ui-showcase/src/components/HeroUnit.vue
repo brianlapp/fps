@@ -88,11 +88,11 @@
             <div class="absolute -top-10 -right-10 w-32 h-32 bg-blue-100 dark:bg-blue-900 rounded-full opacity-50 blur-xl"></div>
             <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-green-100 dark:bg-green-900 rounded-full opacity-50 blur-xl"></div>
             
-            <!-- Main image with fallback -->
+            <!-- Main image -->
             <img 
-              src="/images/hero-family-new.jpg" 
+              src="/images/hero-family-new.png" 
               alt="Happy family enjoying quality time together" 
-              class="rounded-xl shadow-lg w-full h-auto object-cover max-h-[500px] relative z-10 transform transition-transform duration-700 hover:scale-[1.02]"
+              class="w-full h-auto object-contain max-h-[500px] transform transition-transform duration-700 hover:scale-[1.02]"
             />
           </div>
         </div>
