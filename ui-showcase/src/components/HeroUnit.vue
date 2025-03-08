@@ -8,9 +8,9 @@
       <div class="grid md:grid-cols-2 gap-4 md:gap-8 items-center">
         <!-- Hero Content Column -->
         <div class="order-2 md:order-1 animate-fadeIn px-4 sm:px-0">
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-[0.9]">
-            <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">Parenting Support</span>
-            <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent mt-1">at Your Fingertips</span>
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-[1.1] pb-1">
+            <span class="inline-block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">Parenting Support</span>
+            <span class="inline-block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent mt-1">at Your Fingertips</span>
           </h1>
           <p class="mt-4 text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl animate-fadeIn animation-delay-200">
             Free tools, activities, and expert advice for parents at every stage of your family's journey.
