@@ -56,6 +56,21 @@
   height: 8px;
 }
 
+/* Gradient text */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.text-blue-gradient {
+  background-image: linear-gradient(to right, #3b82f6, #60a5fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 :root {
   --primary: #3b82f6; /* blue-500 */
   --primary-dark: #2563eb; /* blue-600 */

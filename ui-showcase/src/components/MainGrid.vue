@@ -29,9 +29,9 @@
 
           <!-- Text Section -->
           <div class="p-6">
-            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-              <span class="block">Find Amazing</span>
-              <span class="bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">Activities for You and Your Child</span>
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+              <span class="block text-blue-gradient">Find Amazing</span>
+              <span class="block text-blue-gradient mt-2">Activities for You and Your Child</span>
             </h1>
             <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">
               Enter a few details below and let our generator do the magic! Perfect for those days when

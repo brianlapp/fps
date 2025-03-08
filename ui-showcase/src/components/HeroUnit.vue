@@ -4,9 +4,9 @@
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <!-- Hero Content Column -->
         <div class="order-2 md:order-1 animate-fadeIn">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white">
-            <span class="block">Parenting Support</span>
-            <span class="bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent">at Your Fingertips</span>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
+            <span class="block text-blue-gradient">Parenting Support</span>
+            <span class="block text-blue-gradient mt-2">at Your Fingertips</span>
           </h1>
           <p class="mt-4 text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl animate-fadeIn animation-delay-200">
             Free tools, activities, and expert advice for parents at every stage of your family's journey.

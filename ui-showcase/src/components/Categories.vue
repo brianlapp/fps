@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-10">
-      <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-        <span class="block">Browse by Category</span>
+      <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+        <span class="block text-blue-gradient">Browse by Category</span>
       </h2>
       <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-600 dark:text-gray-300">
         Find resources tailored to your specific parenting needs

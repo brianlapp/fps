@@ -2,9 +2,9 @@
   <section class="py-12 bg-gray-50 dark:bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          <span class="block">Trending Articles</span>
-          <span class="block text-blue-500 dark:text-blue-400">From Our Experts</span>
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <span class="block text-blue-gradient">Trending Articles</span>
+          <span class="block text-blue-gradient mt-2">From Our Experts</span>
         </h2>
         <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-600 dark:text-gray-300">
           Stay up-to-date with the latest parenting advice and tips from our community of experts.

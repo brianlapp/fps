@@ -14,8 +14,8 @@
             <span class="text-gray-500 dark:text-gray-400 text-sm ml-2">10 min read</span>
           </div>
           
-          <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            The Complete Guide to Creating a Nurturing Bedtime Routine for Children
+          <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+            <span class="text-blue-gradient">The Complete Guide to Creating a Nurturing Bedtime Routine for Children</span>
           </h2>
           
           <p class="text-gray-600 dark:text-gray-300 text-lg mb-6">

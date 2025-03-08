@@ -1,9 +1,9 @@
 <template>
   <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-        <span class="block">Our Story</span>
-        <span class="bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent">Why We Started Free Parent Search</span>
+      <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+        <span class="block text-blue-gradient">Our Story</span>
+        <span class="block text-blue-gradient mt-2">Why We Started Free Parent Search</span>
       </h2>
     </div>
     
