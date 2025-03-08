@@ -86,7 +86,7 @@
             
             <!-- Main image with fallback -->
             <img 
-              src="/images/family.png" 
+              src="../assets/images/family.png" 
               alt="Happy family enjoying quality time together" 
               class="rounded-xl shadow-lg w-full h-auto object-cover max-h-[500px] relative z-10 transform transition-transform duration-700 hover:scale-[1.02]"
             />

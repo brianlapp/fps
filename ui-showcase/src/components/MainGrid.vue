@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto">
       <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden p-6 mb-6">
         <div class="flex items-center space-x-4 mb-4">
-          <img src="/images/avatar.png" alt="Author" class="w-12 h-12 rounded-full">
+          <img src="../assets/images/avatar.png" alt="Author" class="w-12 h-12 rounded-full">
           <div>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Join Our Community</h3>
             <p class="text-gray-600 dark:text-gray-300">Connect with other parents and share your experiences</p>
@@ -23,7 +23,7 @@
           <!-- Image Section -->
           <div class="p-4">
             <img
-              src="/images/activity_banner.jpg"
+              src="../assets/images/activity_banner.jpg"
               alt="Activity Generator" class="w-full h-auto rounded-lg lg:max-h-80 object-cover">
           </div>
 
@@ -50,7 +50,7 @@
           <!-- Image Section -->
           <div class="p-4">
             <img
-              src="/images/banner.png"
+              src="../assets/images/banner.png"
               alt="Article Search" class="w-full h-auto rounded-lg lg:max-h-60 object-cover">
           </div>
           

@@ -11,6 +11,15 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: '../public',
-  }
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      external: [],
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+  publicDir: 'public',
+  base: '/',
 })

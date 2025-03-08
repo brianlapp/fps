@@ -38,7 +38,7 @@
             <div class="absolute -top-5 -right-5 w-24 h-24 bg-blue-100 dark:bg-blue-900 rounded-full opacity-50 blur-xl"></div>
             <div class="absolute -bottom-5 -left-5 w-20 h-20 bg-green-100 dark:bg-green-900 rounded-full opacity-50 blur-xl"></div>
             
-            <img src="/images/family.png" alt="Family enjoying time together" class="relative z-10 rounded-lg shadow-lg w-full h-auto">
+            <img src="../assets/images/family.png" alt="Family enjoying time together" class="relative z-10 rounded-lg shadow-lg w-full h-auto">
             
             <div class="absolute bottom-4 right-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 z-20 max-w-xs">
               <p class="text-gray-900 dark:text-white font-medium text-sm">

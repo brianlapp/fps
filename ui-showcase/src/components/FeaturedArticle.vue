@@ -4,7 +4,7 @@
       <div class="md:flex">
         <!-- Image Section (1/3 width on medium screens and up) -->
         <div class="md:w-1/3">
-          <img src="/images/article_placeholder.png" alt="Featured Article" class="w-full h-full object-cover">
+          <img src="../assets/images/article_placeholder.png" alt="Featured Article" class="w-full h-full object-cover">
         </div>
         
         <!-- Content Section (2/3 width on medium screens and up) -->
@@ -23,7 +23,7 @@
           </p>
           
           <div class="flex items-center mb-6">
-            <img src="/images/avatar.png" alt="Author" class="w-10 h-10 rounded-full mr-3">
+            <img src="../assets/images/avatar.png" alt="Author" class="w-10 h-10 rounded-full mr-3">
             <div>
               <p class="text-gray-900 dark:text-white font-medium">Dr. Sarah Johnson</p>
               <p class="text-gray-500 dark:text-gray-400 text-sm">Child Development Specialist</p>

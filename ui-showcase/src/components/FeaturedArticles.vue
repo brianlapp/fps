@@ -14,7 +14,7 @@
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <!-- Article Card 1 -->
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-[1.02]">
-          <img src="/images/toddler.png" alt="Toddler Development" class="w-full h-48 object-cover">
+          <img src="../assets/images/toddler.png" alt="Toddler Development" class="w-full h-48 object-cover">
           <div class="p-6">
             <div class="flex items-center mb-2">
               <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">Toddlers</span>
@@ -31,7 +31,7 @@
 
         <!-- Article Card 2 -->
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-[1.02]">
-          <img src="/images/preschool.png" alt="Preschool Readiness" class="w-full h-48 object-cover">
+          <img src="../assets/images/preschool.png" alt="Preschool Readiness" class="w-full h-48 object-cover">
           <div class="p-6">
             <div class="flex items-center mb-2">
               <span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 text-xs font-semibold px-2.5 py-0.5 rounded">Preschool</span>
@@ -48,7 +48,7 @@
 
         <!-- Article Card 3 -->
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-[1.02]">
-          <img src="/images/school.png" alt="School Age Children" class="w-full h-48 object-cover">
+          <img src="../assets/images/school.png" alt="School Age Children" class="w-full h-48 object-cover">
           <div class="p-6">
             <div class="flex items-center mb-2">
               <span class="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 text-xs font-semibold px-2.5 py-0.5 rounded">School Age</span>
