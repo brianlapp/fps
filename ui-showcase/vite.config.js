@@ -13,17 +13,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    assetsDir: '',
-    rollupOptions: {
-      output: {
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name === 'parenting.mp4') {
-            return '[name][extname]';
-          }
-          return 'assets/[name]-[hash][extname]';
-        }
-      }
-    }
+    assetsDir: 'assets',
   },
   publicDir: 'public'
 })
