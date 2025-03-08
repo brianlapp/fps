@@ -1,6 +1,26 @@
 <script setup>
 // Using images and video from public directory
-import videoUrl from '/parenting.mp4'
+import { ref, onMounted } from 'vue'
+
+const videoLoading = ref(true)
+const videoError = ref(false)
+const videoElement = ref(null)
+
+const handleVideoLoad = () => {
+  console.log('Video loaded successfully')
+  videoLoading.value = false
+}
+
+const handleVideoError = (error) => {
+  console.error('Video failed to load:', error)
+  console.log('Video source:', videoElement.value?.currentSrc || 'No source')
+  videoError.value = true
+  videoLoading.value = false
+}
+
+onMounted(() => {
+  console.log('Attempting to load video from:', '/parenting.mp4')
+})
 </script>
 
 <template>
@@ -93,14 +113,33 @@ import videoUrl from '/parenting.mp4'
             
             <!-- Hero Video -->
             <div class="relative w-full aspect-video md:aspect-square overflow-hidden md:rounded-lg md:shadow-xl border-b border-gray-200 dark:border-gray-700 sm:border-0">
+              <!-- Loading State -->
+              <div v-if="videoLoading && !videoError" class="absolute inset-0 w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800">
+                <div class="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent"></div>
+              </div>
+
+              <!-- Error State -->
+              <div v-if="videoError" class="absolute inset-0 w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400">
+                <div class="text-center">
+                  <svg class="mx-auto h-12 w-12 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                  <p>Failed to load video</p>
+                </div>
+              </div>
+
+              <!-- Video -->
               <video 
+                ref="videoElement"
                 class="absolute inset-0 w-full h-full object-cover"
                 autoplay
                 loop
                 muted
                 playsinline
+                @loadeddata="handleVideoLoad"
+                @error="handleVideoError"
               >
-                <source :src="videoUrl" type="video/mp4">
+                <source src="/parenting.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
