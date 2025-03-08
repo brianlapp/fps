@@ -90,7 +90,7 @@
             
             <!-- Main image -->
             <img 
-              src="../assets/images/hero-family-new.png" 
+              src="/images/hero-family-new.png" 
               alt="Happy family enjoying quality time together" 
               class="w-full h-auto object-contain max-h-[500px] transform transition-transform duration-700 hover:scale-[1.02]"
             />

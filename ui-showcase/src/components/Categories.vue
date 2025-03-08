@@ -17,7 +17,7 @@
       <!-- Category 1 -->
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.05]">
         <div class="p-2">
-          <img src="../assets/images/categories/new-parents.png" alt="New Parents" class="w-full h-32 object-cover rounded-t-lg">
+          <img src="/images/categories/new-parents.png" alt="New Parents" class="w-full h-32 object-cover rounded-t-lg">
         </div>
         <div class="p-4 text-center">
           <h3 class="font-semibold text-gray-900 dark:text-white">New Parents</h3>
@@ -28,7 +28,7 @@
       <!-- Category 2 -->
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.05]">
         <div class="p-2">
-          <img src="../assets/images/categories/expecting-parents.png" alt="Expecting Parents" class="w-full h-32 object-cover rounded-t-lg">
+          <img src="/images/categories/expecting-parents.png" alt="Expecting Parents" class="w-full h-32 object-cover rounded-t-lg">
         </div>
         <div class="p-4 text-center">
           <h3 class="font-semibold text-gray-900 dark:text-white">Expecting Parents</h3>
@@ -39,7 +39,7 @@
       <!-- Category 3 -->
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.05]">
         <div class="p-2">
-          <img src="../assets/images/categories/paretning-tips.png" alt="Parenting Tips" class="w-full h-32 object-cover rounded-t-lg">
+          <img src="/images/categories/paretning-tips.png" alt="Parenting Tips" class="w-full h-32 object-cover rounded-t-lg">
         </div>
         <div class="p-4 text-center">
           <h3 class="font-semibold text-gray-900 dark:text-white">Parenting Tips</h3>
@@ -50,7 +50,7 @@
       <!-- Category 4 -->
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.05]">
         <div class="p-2">
-          <img src="../assets/images/categories/free-samples.png" alt="Free Samples" class="w-full h-32 object-cover rounded-t-lg">
+          <img src="/images/categories/free-samples.png" alt="Free Samples" class="w-full h-32 object-cover rounded-t-lg">
         </div>
         <div class="p-4 text-center">
           <h3 class="font-semibold text-gray-900 dark:text-white">Free Samples</h3>
@@ -61,7 +61,7 @@
       <!-- Category 5 -->
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.05]">
         <div class="p-2">
-          <img src="../assets/images/categories/sweepstakes.png" alt="Sweepstakes" class="w-full h-32 object-cover rounded-t-lg">
+          <img src="/images/categories/sweepstakes.png" alt="Sweepstakes" class="w-full h-32 object-cover rounded-t-lg">
         </div>
         <div class="p-4 text-center">
           <h3 class="font-semibold text-gray-900 dark:text-white">Sweepstakes</h3>
@@ -72,7 +72,7 @@
       <!-- Category 6 -->
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:transform hover:scale-[1.05]">
         <div class="p-2">
-          <img src="../assets/images/categories/paid-surveys.png" alt="Paid Surveys" class="w-full h-32 object-cover rounded-t-lg">
+          <img src="/images/categories/paid-surveys.png" alt="Paid Surveys" class="w-full h-32 object-cover rounded-t-lg">
         </div>
         <div class="p-4 text-center">
           <h3 class="font-semibold text-gray-900 dark:text-white">Paid Surveys</h3>
