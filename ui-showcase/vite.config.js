@@ -6,6 +6,7 @@ import path from 'path'
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/' : '/',
   plugins: [vue()],
+  assetsInclude: ['**/*.mp4'],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
