@@ -8,6 +8,7 @@
 [build.environment]
   NODE_VERSION = "18"
   VITE_BASE_URL = "/"
+  VITE_NETLIFY_URL = "https://fps-ui-showcase.netlify.app"
 
 [[headers]]
   for = "/*"

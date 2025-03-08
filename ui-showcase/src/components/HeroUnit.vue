@@ -6,6 +6,9 @@ const videoLoading = ref(true)
 const videoError = ref(false)
 const videoElement = ref(null)
 
+// Using video from public directory as before
+const videoUrl = 'parenting.mp4'
+
 const handleVideoLoad = () => {
   console.log('Video loaded successfully')
   videoLoading.value = false
@@ -14,12 +17,13 @@ const handleVideoLoad = () => {
 const handleVideoError = (error) => {
   console.error('Video failed to load:', error)
   console.log('Video source:', videoElement.value?.currentSrc || 'No source')
+  console.log('Attempted video URL:', videoUrl)
   videoError.value = true
   videoLoading.value = false
 }
 
 onMounted(() => {
-  console.log('Attempting to load video from:', '/parenting.mp4')
+  console.log('Attempting to load video from:', videoUrl)
 })
 </script>
 
@@ -139,7 +143,7 @@ onMounted(() => {
                 @loadeddata="handleVideoLoad"
                 @error="handleVideoError"
               >
-                <source src="/parenting.mp4" type="video/mp4">
+                <source :src="videoUrl" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
