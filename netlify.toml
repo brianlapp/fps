@@ -3,13 +3,13 @@
 
 [build]
   # Directory to change to before starting a build
-  base = "app"
+  base = "/"
   
   # Directory that contains the deploy-ready HTML files and assets
-  publish = "public"
+  publish = "app/public"
   
   # Default build command
-  command = "npm run netlify-build"
+  command = "cd app && npm run netlify-build"
 
 # Redirect all API requests to a placeholder for static deployment
 [[redirects]]
