@@ -1,14 +1,13 @@
-# Netlify configuration file - Pointing to UI Showcase
-# Updated on March 7, 2025
+# Netlify configuration for UI Showcase
 
 [build]
-  # Use the UI showcase directory
+  # Base directory
   base = "ui-showcase"
   
   # Output directory for static files
   publish = "dist"
   
-  # Build command for Vue application
+  # Build command
   command = "npm install && npm run build"
 
 # Handle all routes for SPA

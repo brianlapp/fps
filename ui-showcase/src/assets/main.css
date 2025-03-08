@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3b82f6; /* blue-500 */
+  --primary-dark: #2563eb; /* blue-600 */
+  --secondary: #10b981; /* green-500 */
+  --secondary-dark: #059669; /* green-600 */
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  color: #1f2937; /* gray-800 */
+  background-color: #f9fafb; /* gray-50 */
+}
+
+.dark body {
+  color: #f3f4f6; /* gray-100 */
+  background-color: #111827; /* gray-900 */
+}
+
+/* Animation classes */
+.animate-fadeIn {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animation-delay-100 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-200 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 600ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 800ms;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Background gradients */
+.bg-blue-gradient {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+.bg-blue-gradient-reversed {
+  background: linear-gradient(to left, var(--primary), var(--secondary));
+}
+
+.dark .bg-dark-blue-gradient {
+  background: linear-gradient(to right, #1e40af, #065f46); /* blue-800 to green-800 */
+}
+
+/* UI notice banner */
+.ui-notice {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
