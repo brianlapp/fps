@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "netlify-build": "node netlify-ui-only.js"
+        "netlify-build": "node netlify-actual-ui.js"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
