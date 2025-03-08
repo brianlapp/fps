@@ -21,8 +21,10 @@ const handleVideoError = (error) => {
   videoLoading.value = false
 }
 
+const baseUrl = import.meta.env.BASE_URL || '/'
+
 onMounted(() => {
-  console.log('Attempting to load video from:', '/parenting.mp4')
+  console.log('Attempting to load video from:', `${baseUrl}parenting.mp4`)
 })
 </script>
 
@@ -142,7 +144,7 @@ onMounted(() => {
                 @loadeddata="handleVideoLoad"
                 @error="handleVideoError"
               >
-                <source src="/parenting.mp4" type="video/mp4">
+                <source :src="`${baseUrl}parenting.mp4`" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
