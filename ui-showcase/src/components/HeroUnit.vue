@@ -1,5 +1,6 @@
 <script setup>
-// Using images from public directory
+// Using images and video from public directory
+import videoUrl from '/parenting.mp4'
 </script>
 
 <template>
@@ -99,7 +100,7 @@
                 muted
                 playsinline
               >
-                <source src="parenting.mp4" type="video/mp4">
+                <source :src="videoUrl" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>

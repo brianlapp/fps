@@ -15,9 +15,14 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
-      external: [],
       output: {
         manualChunks: undefined,
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name.endsWith('.mp4')) {
+            return '[name][extname]';
+          }
+          return 'assets/[name]-[hash][extname]';
+        }
       },
     },
   },
