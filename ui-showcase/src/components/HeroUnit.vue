@@ -4,8 +4,8 @@
 
 <template>
   <section class="hero-section bg-gradient-to-br from-blue-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-4 md:py-16 lg:py-20">
-      <div class="grid md:grid-cols-2 gap-8 items-center">
+    <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-2 md:py-16 lg:py-20">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-8 items-center">
         <!-- Hero Content Column -->
         <div class="order-2 md:order-1 animate-fadeIn">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
