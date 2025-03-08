@@ -1,9 +1,13 @@
+<script setup>
+// Using images from public directory
+</script>
+
 <template>
   <section class="w-full px-2 lg:px-4 py-8">
     <div class="max-w-7xl mx-auto">
       <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden p-6 mb-6">
         <div class="flex items-center space-x-4 mb-4">
-          <img src="../assets/images/avatar.png" alt="Author" class="w-12 h-12 rounded-full">
+          <img src="/images/user_placeholder.webp" alt="Author" class="w-12 h-12 rounded-full">
           <div>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Join Our Community</h3>
             <p class="text-gray-600 dark:text-gray-300">Connect with other parents and share your experiences</p>
@@ -23,15 +27,15 @@
           <!-- Image Section -->
           <div class="p-4">
             <img
-              src="../assets/images/activity_banner.jpg"
+              src="/images/activity_banner.jpg"
               alt="Activity Generator" class="w-full h-auto rounded-lg lg:max-h-80 object-cover">
           </div>
 
           <!-- Text Section -->
           <div class="p-6">
             <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
-              <span class="block text-blue-gradient">Find Amazing</span>
-              <span class="block text-blue-gradient mt-2">Activities for You and Your Child</span>
+              <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">Find Amazing</span>
+              <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent mt-2">Activities for You and Your Child</span>
             </h1>
             <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">
               Enter a few details below and let our generator do the magic! Perfect for those days when
@@ -50,7 +54,7 @@
           <!-- Image Section -->
           <div class="p-4">
             <img
-              src="../assets/images/banner.png"
+              src="/images/banner.png"
               alt="Article Search" class="w-full h-auto rounded-lg lg:max-h-60 object-cover">
           </div>
           

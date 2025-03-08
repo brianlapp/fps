@@ -11,7 +11,7 @@
         <div class="flex justify-between h-16">
           <div class="flex">
             <div class="flex-shrink-0 flex items-center">
-              <span class="text-xl font-bold text-gray-800 dark:text-white">Free Parent Search</span>
+              <img src="/images/logo.png" alt="Free Parent Search" class="h-8 w-auto">
             </div>
             <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
               <a href="#" class="border-blue-500 text-gray-900 dark:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
@@ -80,7 +80,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <div class="mb-4 md:mb-0">
-            <h3 class="text-xl font-bold mb-2">Free Parent Search</h3>
+            <img src="/images/logo.png" alt="Free Parent Search" class="h-8 w-auto mb-2">
             <p class="text-gray-400">Connecting families with essential resources</p>
           </div>
           <div class="flex space-x-4">

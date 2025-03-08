@@ -1,10 +1,14 @@
+<script setup>
+// Using images from public directory
+</script>
+
 <template>
   <section class="py-12 bg-gray-50 dark:bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-          <span class="block text-blue-gradient">Trending Articles</span>
-          <span class="block text-blue-gradient mt-2">From Our Experts</span>
+          <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">Trending Articles</span>
+          <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent mt-2">From Our Experts</span>
         </h2>
         <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-600 dark:text-gray-300">
           Stay up-to-date with the latest parenting advice and tips from our community of experts.
@@ -14,7 +18,7 @@
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <!-- Article Card 1 -->
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-[1.02]">
-          <img src="../assets/images/toddler.png" alt="Toddler Development" class="w-full h-48 object-cover">
+          <img src="/images/toddler.png" alt="Toddler Development" class="w-full h-48 object-cover">
           <div class="p-6">
             <div class="flex items-center mb-2">
               <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">Toddlers</span>
@@ -31,7 +35,7 @@
 
         <!-- Article Card 2 -->
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-[1.02]">
-          <img src="../assets/images/preschool.png" alt="Preschool Readiness" class="w-full h-48 object-cover">
+          <img src="/images/preschool.png" alt="Preschool Readiness" class="w-full h-48 object-cover">
           <div class="p-6">
             <div class="flex items-center mb-2">
               <span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 text-xs font-semibold px-2.5 py-0.5 rounded">Preschool</span>
@@ -48,7 +52,7 @@
 
         <!-- Article Card 3 -->
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-[1.02]">
-          <img src="../assets/images/school.png" alt="School Age Children" class="w-full h-48 object-cover">
+          <img src="/images/school.png" alt="School Age Children" class="w-full h-48 object-cover">
           <div class="p-6">
             <div class="flex items-center mb-2">
               <span class="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 text-xs font-semibold px-2.5 py-0.5 rounded">School Age</span>

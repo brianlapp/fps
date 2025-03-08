@@ -1,3 +1,7 @@
+<script setup>
+// Using images from public directory
+</script>
+
 <template>
   <section class="hero-section bg-gradient-to-br from-blue-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 lg:py-20">
@@ -5,8 +9,8 @@
         <!-- Hero Content Column -->
         <div class="order-2 md:order-1 animate-fadeIn">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
-            <span class="block text-blue-gradient">Parenting Support</span>
-            <span class="block text-blue-gradient mt-2">at Your Fingertips</span>
+            <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">Parenting Support</span>
+            <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent mt-2">at Your Fingertips</span>
           </h1>
           <p class="mt-4 text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl animate-fadeIn animation-delay-200">
             Free tools, activities, and expert advice for parents at every stage of your family's journey.
@@ -86,7 +90,7 @@
             
             <!-- Main image with fallback -->
             <img 
-              src="../assets/images/family.png" 
+              src="/images/hero-family-new.jpg" 
               alt="Happy family enjoying quality time together" 
               class="rounded-xl shadow-lg w-full h-auto object-cover max-h-[500px] relative z-10 transform transition-transform duration-700 hover:scale-[1.02]"
             />

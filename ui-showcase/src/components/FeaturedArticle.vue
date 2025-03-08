@@ -1,10 +1,14 @@
+<script setup>
+// Using images from public directory
+</script>
+
 <template>
   <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-xl overflow-hidden">
       <div class="md:flex">
         <!-- Image Section (1/3 width on medium screens and up) -->
         <div class="md:w-1/3">
-          <img src="../assets/images/article_placeholder.png" alt="Featured Article" class="w-full h-full object-cover">
+          <img src="/images/article_placeholder.png" alt="Featured Article" class="w-full h-full object-cover">
         </div>
         
         <!-- Content Section (2/3 width on medium screens and up) -->
@@ -15,7 +19,7 @@
           </div>
           
           <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-            <span class="text-blue-gradient">The Complete Guide to Creating a Nurturing Bedtime Routine for Children</span>
+            <span class="bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">The Complete Guide to Creating a Nurturing Bedtime Routine for Children</span>
           </h2>
           
           <p class="text-gray-600 dark:text-gray-300 text-lg mb-6">
@@ -23,7 +27,7 @@
           </p>
           
           <div class="flex items-center mb-6">
-            <img src="../assets/images/avatar.png" alt="Author" class="w-10 h-10 rounded-full mr-3">
+            <img src="/images/user_placeholder.webp" alt="Author" class="w-10 h-10 rounded-full mr-3">
             <div>
               <p class="text-gray-900 dark:text-white font-medium">Dr. Sarah Johnson</p>
               <p class="text-gray-500 dark:text-gray-400 text-sm">Child Development Specialist</p>

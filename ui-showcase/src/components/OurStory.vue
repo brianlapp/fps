@@ -1,9 +1,13 @@
+<script setup>
+// Using images from public directory
+</script>
+
 <template>
   <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-        <span class="block text-blue-gradient">Our Story</span>
-        <span class="block text-blue-gradient mt-2">Why We Started Free Parent Search</span>
+        <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent">Our Story</span>
+        <span class="block bg-gradient-to-r from-green-500 to-blue-400 bg-clip-text text-transparent mt-2">Why We Started Free Parent Search</span>
       </h2>
     </div>
     
@@ -38,7 +42,7 @@
             <div class="absolute -top-5 -right-5 w-24 h-24 bg-blue-100 dark:bg-blue-900 rounded-full opacity-50 blur-xl"></div>
             <div class="absolute -bottom-5 -left-5 w-20 h-20 bg-green-100 dark:bg-green-900 rounded-full opacity-50 blur-xl"></div>
             
-            <img src="../assets/images/family.png" alt="Family enjoying time together" class="relative z-10 rounded-lg shadow-lg w-full h-auto">
+            <img src="/images/family.png" alt="Family enjoying time together" class="relative z-10 rounded-lg shadow-lg w-full h-auto">
             
             <div class="absolute bottom-4 right-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 z-20 max-w-xs">
               <p class="text-gray-900 dark:text-white font-medium text-sm">
