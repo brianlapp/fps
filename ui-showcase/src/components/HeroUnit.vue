@@ -1,7 +1,6 @@
 <script setup>
-// Using images and video from assets directory
+// Using images and video from public directory
 import { ref, onMounted } from 'vue'
-import parentingVideo from '../assets/parenting.mp4'
 
 const videoLoading = ref(true)
 const videoError = ref(false)
@@ -140,7 +139,7 @@ onMounted(() => {
                 @loadeddata="handleVideoLoad"
                 @error="handleVideoError"
               >
-                <source :src="parentingVideo" type="video/mp4">
+                <source src="/parenting.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
