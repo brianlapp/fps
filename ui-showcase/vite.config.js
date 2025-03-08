@@ -21,5 +21,10 @@ export default defineConfig({
     },
   },
   publicDir: 'public',
-  base: '/'
+  base: './',
+  server: {
+    fs: {
+      strict: false
+    }
+  }
 })

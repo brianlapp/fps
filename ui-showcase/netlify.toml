@@ -7,6 +7,17 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  VITE_BASE_URL = "/"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
 
 [[redirects]]
   from = "/images/*"
