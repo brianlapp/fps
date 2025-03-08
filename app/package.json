@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "netlify-build": "vite build && node netlify.js"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
